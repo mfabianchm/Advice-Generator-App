@@ -11,6 +11,7 @@
 		58FBDBEA2BA0D464009277D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBDBE92BA0D464009277D4 /* ContentView.swift */; };
 		58FBDBEC2BA0D465009277D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FBDBEB2BA0D465009277D4 /* Assets.xcassets */; };
 		58FBDBEF2BA0D465009277D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FBDBEE2BA0D465009277D4 /* Preview Assets.xcassets */; };
+		58FBDBF62BA0D59B009277D4 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58FBDBF52BA0D59B009277D4 /* Manrope-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		58FBDBE92BA0D464009277D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58FBDBEB2BA0D465009277D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58FBDBEE2BA0D465009277D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58FBDBF52BA0D59B009277D4 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		58FBDBF82BA0D5BF009277D4 /* Advice-Generator-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Advice-Generator-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		58FBDBE62BA0D464009277D4 /* Advice-Generator App */ = {
 			isa = PBXGroup;
 			children = (
+				58FBDBF82BA0D5BF009277D4 /* Advice-Generator-App-Info.plist */,
+				58FBDBF72BA0D5A4009277D4 /* Fonts */,
 				58FBDBE72BA0D464009277D4 /* Advice_Generator_AppApp.swift */,
 				58FBDBE92BA0D464009277D4 /* ContentView.swift */,
 				58FBDBEB2BA0D465009277D4 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				58FBDBEE2BA0D465009277D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58FBDBF72BA0D5A4009277D4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				58FBDBF52BA0D59B009277D4 /* Manrope-ExtraBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58FBDBF62BA0D59B009277D4 /* Manrope-ExtraBold.ttf in Resources */,
 				58FBDBEF2BA0D465009277D4 /* Preview Assets.xcassets in Resources */,
 				58FBDBEC2BA0D465009277D4 /* Assets.xcassets in Resources */,
 			);
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = H5MNUSUD85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Advice-Generator-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = H5MNUSUD85;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Advice-Generator-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
