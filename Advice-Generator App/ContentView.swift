@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @GestureState private var isDetectingLongPress = false
     @State private var advice: AdviceResponse?
     
     
